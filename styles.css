@@ -1,0 +1,45 @@
+.container-1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 20px;
+}
+
+.first {
+    background-color: lightblue;
+}
+
+.second {
+    background-color: pink;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 20px;
+}
+
+.col1 {
+    background-color: lightblue
+}
+
+.col2 {
+    background-color: pink;
+}
+
+.col3 {
+    background-color: lightblue
+}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.one, .two, .three, .four {
+    background-color: pink;
+}
+
